@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="43%" r="78%"><stop stop-color="#1a0b0d"/><stop offset=".46" stop-color="#0d0d0f"/><stop offset="1" stop-color="#030303"/></radialGradient>
+    <linearGradient id="metal" x1="0" x2="1"><stop stop-color="#070707"/><stop offset=".22" stop-color="#313238"/><stop offset=".38" stop-color="#c7ccd3"/><stop offset=".48" stop-color="#16171a"/><stop offset=".7" stop-color="#060606"/><stop offset=".86" stop-color="#777b82"/><stop offset="1" stop-color="#080808"/></linearGradient>
+    <linearGradient id="metalDeep" x1="0" x2="1"><stop stop-color="#030303"/><stop offset=".27" stop-color="#0e0f12"/><stop offset=".48" stop-color="#747982"/><stop offset=".59" stop-color="#101114"/><stop offset="1" stop-color="#020202"/></linearGradient>
+    <linearGradient id="redEdge" x1="0" x2="1"><stop stop-color="#400307"/><stop offset=".24" stop-color="#ff2e3b"/><stop offset=".51" stop-color="#7f0b12"/><stop offset=".78" stop-color="#ff4a54"/><stop offset="1" stop-color="#340104"/></linearGradient>
+    <filter id="glow" x="-30%" y="-50%" width="160%" height="200%"><feGaussianBlur stdDeviation="9"/></filter>
+    <filter id="soft" x="-30%" y="-50%" width="160%" height="200%"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <g fill="none" stroke-linecap="round">
+    <path d="M-110 735C102 314 263 820 555 622S892 110 1194 257s303 263 525-118" stroke="#e50914" stroke-width="102" opacity=".34" filter="url(#glow)"/>
+    <path d="M-110 735C102 314 263 820 555 622S892 110 1194 257s303 263 525-118" stroke="url(#redEdge)" stroke-width="84"/>
+    <path d="M-110 735C102 314 263 820 555 622S892 110 1194 257s303 263 525-118" stroke="url(#metal)" stroke-width="69"/>
+    <path d="M-110 735C102 314 263 820 555 622S892 110 1194 257s303 263 525-118" stroke="#f5f7ff" stroke-width="7" opacity=".42" filter="url(#soft)"/>
+
+    <path d="M-125 429C163 86 326 530 575 475s316-454 629-276 275 283 499 224" stroke="#ff2e3e" stroke-width="83" opacity=".34" filter="url(#glow)"/>
+    <path d="M-125 429C163 86 326 530 575 475s316-454 629-276 275 283 499 224" stroke="url(#redEdge)" stroke-width="68"/>
+    <path d="M-125 429C163 86 326 530 575 475s316-454 629-276 275 283 499 224" stroke="url(#metalDeep)" stroke-width="55"/>
+    <path d="M-125 429C163 86 326 530 575 475s316-454 629-276 275 283 499 224" stroke="#e7ebf1" stroke-width="5" opacity=".45"/>
+
+    <path d="M-70 895C117 465 378 806 608 752s242-394 496-362 266 300 556 119" stroke="#e50914" stroke-width="75" opacity=".3" filter="url(#glow)"/>
+    <path d="M-70 895C117 465 378 806 608 752s242-394 496-362 266 300 556 119" stroke="url(#redEdge)" stroke-width="61"/>
+    <path d="M-70 895C117 465 378 806 608 752s242-394 496-362 266 300 556 119" stroke="url(#metalDeep)" stroke-width="48"/>
+
+    <path d="M512-34c28 214 166 228 317 115 152-113 282-31 335 137 49 155 154 204 387 106" stroke="#ff2e3e" stroke-width="68" opacity=".25" filter="url(#glow)"/>
+    <path d="M512-34c28 214 166 228 317 115 152-113 282-31 335 137 49 155 154 204 387 106" stroke="url(#redEdge)" stroke-width="57"/>
+    <path d="M512-34c28 214 166 228 317 115 152-113 282-31 335 137 49 155 154 204 387 106" stroke="url(#metal)" stroke-width="45"/>
+  </g>
+  <rect width="1600" height="900" fill="url(#bg)" opacity=".16"/>
+</svg>
